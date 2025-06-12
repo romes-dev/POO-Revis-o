@@ -1,0 +1,34 @@
+Atividade – Gerenciador de Empréstimos de Livros
+
+Você foi contratado para desenvolver uma aplicação gráfica simples para a Biblioteca da OGSEY usando Python com Tkinter e orientação a objetos.
+Seu sistema será utilizado pelos funcionários para gerenciar o empréstimo de livros aos alunos.
+Requisitos da Aplicação:
+
+    Catálogo Inicial:
+    Ao iniciar a aplicação, o sistema já deve ter uma lista de livros cadastrados, cada um com título, autor, ano e uma imagem de capa (as imagens estarão em uma pasta capas no mesmo diretório do seu arquivo Python).
+
+    Exibição dos Livros:
+    Cada livro deve ser exibido na interface como um botão ou card com sua capa, título e autor.
+
+    Empréstimo:
+    O usuário poderá clicar em um livro e informar o nome do aluno que deseja realizar o empréstimo.
+    O livro deve então ser adicionado a uma lista de "Empréstimos em Andamento" exibida na interface, junto com o nome do aluno e a data do empréstimo (use a data atual do sistema).
+
+    Devolução:
+    O funcionário poderá selecionar um empréstimo em andamento e clicar em "Registrar Devolução" para removê-lo da lista.
+
+    Visual Agradável:
+    O sistema deve ter uma interface intuitiva, usar as imagens das capas e destacar os principais botões de ação (Empréstimo, Devolução).
+
+    Extras (opcional):
+    Permitir cadastrar novos livros na biblioteca durante o uso da aplicação.
+
+Dicas:
+
+    Use listas para controlar os livros disponíveis e os empréstimos em andamento.
+
+    Lembre-se de manter as referências das imagens (PhotoImage) vivas.
+
+    Valide entradas do usuário para evitar cadastros ou empréstimos em branco.
+
+    Faça uso de orientação a objetos, criando classes como Livro, Emprestimo e Biblioteca.
