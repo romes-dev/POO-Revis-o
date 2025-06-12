@@ -32,3 +32,5 @@ Dicas:
     Valide entradas do usuário para evitar cadastros ou empréstimos em branco.
 
     Faça uso de orientação a objetos, criando classes como Livro, Emprestimo e Biblioteca.
+
+    Enviar a atividade final em https://forms.gle/UB79aPdj831AnMeHA
